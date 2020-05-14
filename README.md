@@ -6,7 +6,8 @@ rascunho
 
 1 - docker-compose up --build
 2 - docker exec -it baselab_php composer create-project symfony/skeleton nome_do_projeto
-
+ou
+servidor do php docker exec -it baselab_php php -S localhost:8080 -t public
 php 7.4
 mariaDB 10.4
 REDIS_VERSION=6.0.1
